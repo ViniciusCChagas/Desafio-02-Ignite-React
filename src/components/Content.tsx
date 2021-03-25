@@ -1,4 +1,4 @@
-import { useMoviesContext } from '../contexts/MoviesContext';
+import { useMoviesContext } from '../hooks/useMoviesContext';
 import { MovieCard } from './MovieCard';
 
 export function Content() {

@@ -12,7 +12,7 @@ import './styles/global.scss';
 
 import './styles/sidebar.scss';
 import './styles/content.scss';
-import { MoviesProvider } from './contexts/MoviesContext';
+import { MoviesProvider } from './hooks/useMoviesContext';
 
 export function App() {
 	return (
